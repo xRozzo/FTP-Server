@@ -34,3 +34,19 @@ USAGE: ./myftp port path
   port: Port number on which the server socket listens.
   path: Path to the home directory for the Anonymous user.
 ```
+
+### Examples
+
+```sh
+./myftp 21 /home/user/ftp
+```
+
+## Connect clinet to server
+
+```sh
+nc localhost 21  "recommanded to use netcat"
+```
+
+### Commands
+
+- See the list of commands in the file [commands](./commands.txt)
