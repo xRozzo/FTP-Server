@@ -1,0 +1,20 @@
+BasedOnStyle: LLVM
+IndentWidth: 4       # Set the width of an indentation level
+TabWidth: 4          # Width of tab characters
+UseTab: Never        # Use spaces for indentation
+BreakBeforeBraces: Attach  # Braces attached to the surrounding context
+AllowShortIfStatementsOnASingleLine: false  # No single-line 'if' statements
+AllowShortLoopsOnASingleLine: false         # No single-line 'for' loops
+ColumnLimit: 80      # Maximum number of columns in a line
+
+# Function declaration style
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true  # Place opening brace of a function on a new line
+  AfterControlStatement: false  # 'if' and 'for' braces on the same line
+
+# Additional options for spacing and alignment
+AlignAfterOpenBracket: Align
+PointerAlignment: Right
+SpaceAfterCStyleCast: true
+SpacesBeforeTrailingComments: 1
